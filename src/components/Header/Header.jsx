@@ -10,7 +10,10 @@ export default function Header() {
   };
 
   return (
-    <section className="relative min-w-screen min-h-screen " id="home">
+    <section
+      className="relative min-w-screen min-h-screen lg:h-[110vh] 2xl:h-screen "
+      id="home"
+    >
       {/* Capa interactiva del gato y el pepino */}
       <div
         className={`absolute inset-0 z-20 ${
@@ -22,7 +25,7 @@ export default function Header() {
 
       {/* Contenido de la página */}
       <div className="flex flex-col xl:flex-row h-screen ">
-        <div className="xl:w-1/2 bg-yellow-500 h-screen animate-left hover:bg-yellow-400 transition-all">
+        <div className="xl:w-1/2 bg-yellow-500 lg:h-[110vh] 2xl:h-screen animate-left hover:bg-yellow-400 transition-all">
           <div className="w-full flex justify-center mt-5">
             <h1 className=" text-2xl xl:text-4xl font-bold">
               Full-Stack Senior{" "}
@@ -125,7 +128,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className="xl:flex flex-col  xl:w-[50%] bg-gray-500 h-screen  animate-rigth relative hover:bg-gray-600 transition-all hidden ">
+        <div className="xl:flex flex-col  xl:w-[50%] bg-gray-500 lg:h-[110vh] 2xl:h-screen  animate-rigth relative hover:bg-gray-600 transition-all hidden ">
           <div className="w-full flex justify-center mt-5">
             <h1 className=" text-xl md:text-3xl xl:text-4xl font-bold ">
               Creador De <span className="text-yellow-300">Contenido.</span>
@@ -133,11 +136,11 @@ export default function Header() {
           </div>
           <div className="flex flex-col justify-center mt-10 2xl:ml-20 w-full ">
             <img
-              className="w-[300px] h-[400px] z-20 xl:w-[520px] 2xl:w-[600px]  2xl:h-[450px] xl:ml-20  2xl:ml-24  hidden lg:block object-cover"
+              className="w-[300px] h-[400px]  xl:w-[520px] 2xl:w-[600px]  2xl:h-[450px] xl:ml-20  2xl:ml-24  hidden lg:block object-cover"
               src="/img/creadorDeContenido.png"
               alt="imagen ilustrativa de dotdager"
             />
-            <div className="flex flex-col z-10 xl:mt-5 2xl:mt-24 animate-fade-left xl:animate-delay-[2000ms] lg:w-[95%] lg:mx-auto 2xl:w-full">
+            <div className="flex flex-col  xl:mt-5 2xl:mt-24 animate-fade-left xl:animate-delay-[2000ms] lg:w-[95%] lg:mx-auto 2xl:w-full">
               <div className=" border-2  p-2 border-black rounded-md max-w-[800px] shadow-[31px_30px_20px_10px_#00000024]">
                 <p className="text-2xl ">
                   Cuando no estoy programando, estoy pensando en el próximo
