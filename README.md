@@ -2,9 +2,7 @@
 
 <img src="https://i.imgur.com/zwmr8cY.png">
 
-
-[Ver página web](https://dot-dager-mocha.vercel.app/)
-<a href="https://dot-dager-mocha.vercel.app/" target="_blank">Ver página web</a>
+<a href="https://dot-dager-mocha.vercel.app/" target="_blank">Ver página web 👀</a>
 
 ## Resumen 📄
 
