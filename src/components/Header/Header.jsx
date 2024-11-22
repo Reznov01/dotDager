@@ -25,7 +25,7 @@ export default function Header() {
 
       {/* Contenido de la página */}
       <div className="flex flex-col xl:flex-row h-screen ">
-        <div className="xl:w-1/2 bg-yellow-500 lg:h-[110vh] 2xl:h-screen animate-left hover:bg-yellow-400 transition-all">
+        <div className="h-screen xl:w-1/2  bg-yellow-500 lg:h-[110vh] 2xl:h-screen animate-left hover:bg-yellow-400 transition-all">
           <div className="w-full flex justify-center mt-5">
             <h1 className=" text-2xl xl:text-4xl font-bold">
               Full-Stack Senior{" "}
@@ -63,7 +63,7 @@ export default function Header() {
                       <img
                         src="/img/linktree.ico"
                         alt="imagen icon redSocial"
-                        className="w-[45px]"
+                        className="w-[45px] transform hover:scale-105 hover:-translate-y-1 transition-transform "
                       />
                     </a>
                   </li>
@@ -72,7 +72,7 @@ export default function Header() {
                       <img
                         src="/img/githubIcon.png"
                         alt="imagen icon redSocial"
-                        className="w-[45px]"
+                        className="w-[45px]  transform hover:scale-105 hover:-translate-y-1 transition-transform"
                       />
                     </a>
                   </li>
@@ -84,12 +84,16 @@ export default function Header() {
                       <img
                         src="/img/linkedinIcon.png"
                         alt="imagen icon redSocial"
-                        className="w-[45px]"
+                        className="w-[45px]  transform hover:scale-105 hover:-translate-y-1 transition-transform"
                       />
                     </a>
                   </li>
                   <div className="flex gap-4 xl:hidden">
-                    <a href="https://www.twitch.tv/dagerxiv">
+                    <a
+                      href="https://www.twitch.tv/dagerxiv"
+                      target="_blank"
+                      className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
+                    >
                       <li className="w-[45px]">
                         <img
                           src="/img/twichIcon.png"
@@ -98,7 +102,11 @@ export default function Header() {
                         />
                       </li>
                     </a>
-                    <a href="https://www.youtube.com/@DotDager">
+                    <a
+                      href="https://www.youtube.com/@DotDager"
+                      target="_blank"
+                      className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
+                    >
                       <li className="w-[45px]">
                         <img
                           src="/img/youtubeIcon.png"
@@ -106,7 +114,11 @@ export default function Header() {
                         />
                       </li>
                     </a>
-                    <a href="https://www.instagram.com/dager.32/">
+                    <a
+                      href="https://www.instagram.com/dager.32/"
+                      target="_blank"
+                      className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
+                    >
                       <li className="w-[45px]">
                         <img
                           src="/img/instagramIcon.png"
@@ -114,7 +126,11 @@ export default function Header() {
                         />
                       </li>
                     </a>
-                    <a href="https://x.com/Dager_32">
+                    <a
+                      href="https://x.com/Dager_32"
+                      target="_blank"
+                      className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
+                    >
                       <li className="w-[45px]">
                         <img
                           src="/img/twitterIcon.png"
@@ -149,7 +165,11 @@ export default function Header() {
               </div>
               <div className="mt-10 lg:ml-5 2xl:ml-0">
                 <ul className="flex gap-4">
-                  <a href="https://www.twitch.tv/dagerxiv">
+                  <a
+                    href="https://www.twitch.tv/dagerxiv"
+                    target="_blank"
+                    className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
+                  >
                     <li className="w-[45px]">
                       <img
                         src="/img/twichIcon.png"
@@ -158,7 +178,11 @@ export default function Header() {
                       />
                     </li>
                   </a>
-                  <a href="https://www.youtube.com/@DotDager">
+                  <a
+                    href="https://www.youtube.com/@DotDager"
+                    target="_blank"
+                    className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
+                  >
                     <li className="w-[45px]">
                       <img
                         src="/img/youtubeIcon.png"
@@ -166,7 +190,11 @@ export default function Header() {
                       />
                     </li>
                   </a>
-                  <a href="https://www.instagram.com/dager.32/">
+                  <a
+                    href="https://www.instagram.com/dager.32/"
+                    target="_blank"
+                    className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
+                  >
                     <li className="w-[45px]">
                       <img
                         src="/img/instagramIcon.png"
@@ -174,7 +202,11 @@ export default function Header() {
                       />
                     </li>
                   </a>
-                  <a href="https://x.com/Dager_32">
+                  <a
+                    href="https://x.com/Dager_32"
+                    target="_blank"
+                    className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
+                  >
                     <li className="w-[45px]">
                       <img
                         src="/img/twitterIcon.png"

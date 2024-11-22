@@ -50,7 +50,7 @@ export default function Contact() {
             className="w-[250px] xl:w-[400px] xl:h-[450px]"
           />
           <button
-            className="  p-2  bg-blue-400 rounded-md font-medium text-xl mr-10 text-white animate-bounce animate-infinite animate-ease-in-out"
+            className=" w-[95%] p-2  bg-blue-400 rounded-md font-medium text-xl mr-10 text-white animate-bounce animate-infinite animate-ease-in-out"
             onClick={() => setShowGame(true)}
           >
             Juguemos un poco 😎
@@ -63,7 +63,7 @@ export default function Contact() {
         </h2>
         <p className="text-2xl text-gray-500 mt-10">mandame un email 👍</p>
         <button
-          className="flex items-center bg-blue-500 text-white gap-1 px-4 py-2 cursor-pointer font-semibold tracking-widest rounded-md hover:bg-blue-400 duration-300 hover:gap-2 hover:translate-x-3 mt-12"
+          className="flex items-center bg-blue-500 text-white gap-1 px-4 py-2 cursor-pointer font-semibold tracking-widest rounded-md hover:bg-blue-400 duration-300 hover:gap-2 hover:translate-x-3 mt-12 "
           onClick={handleEmail}
         >
           Contáctame

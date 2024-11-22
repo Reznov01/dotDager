@@ -37,9 +37,8 @@ export default function About() {
               <div className=" mt-6 ">
                 <ul className="flex space-x-4 justify-start">
                   <a
-                    href="open.spotify.com/artist/6bkClBMJd4qKxJp0J5vHsz?si=mbfNHqvBT9SKSQ-Z"
+                    href="https://open.spotify.com/intl-es/artist/6bkClBMJd4qKxJp0J5vHsz?nd=1"
                     target="_blank"
-                    rel="noopener noreferrer"
                   >
                     <i className="text-gray-400 hover:text-white ">
                       <img
@@ -49,11 +48,7 @@ export default function About() {
                       />
                     </i>
                   </a>
-                  <a
-                    href="tiktok.com/@elantrodedager"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://tiktok.com/@elantrodedager" target="_blank">
                     <i className="text-blue-400 hover:text-white">
                       <img
                         src="/img/tiktokIcon.png"
@@ -62,11 +57,7 @@ export default function About() {
                       />
                     </i>
                   </a>
-                  <a
-                    href="discord.gg/4NFk6TamAB"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="https://discord.gg/4NFk6TamAB" target="_blank">
                     <i className="text-pink-400 hover:text-white">
                       <img
                         src="/img/discordIcon.png"
