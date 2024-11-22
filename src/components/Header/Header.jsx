@@ -48,7 +48,7 @@ export default function Header() {
 
             <div className="flex flex-col -mt-10  animate-fade-right xl:animate-delay-[2000ms]">
               <div className="border-2 p-4 border-black rounded-md shadow-[-21px_30px_20px_10px_#00000024] xl:w-[95%] xl:mx-auto 2xl:w-full ">
-                <p className="text-2xl text-center">
+                <p className="text-2xl ">
                   Hola 👋 soy <span className="font-bold">DotDager</span>,
                   Desarrollador Senior con pasión por el código
                   <br /> y un toque de pepinillo en cada proyecto.

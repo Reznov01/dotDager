@@ -87,7 +87,7 @@ export default function About() {
           alt="imagen filosofica"
           className="mt-52 2xl:mt-28"
         />
-        <div className="p-4 border border-blue-400 rounded-lg 2xl:w-[60ch] mt-10 text-center -ml-10 2xl:ml-5 mr-5 2xl:mr-0 ">
+        <div className="p-4 border border-blue-400 rounded-lg 2xl:w-[60ch] mt-10 text-center -ml-10 2xl:ml-5 mr-5 2xl:mr-0  animate-fade-left">
           <h2 className=" xl:text-xl 2xl:text-2xl text-purple-500 font-medium">
             Che, si no podés leer lo del letrero, sos demasiado boludo para
             estar acá. Acá hablamos en código{" "}
