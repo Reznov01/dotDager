@@ -27,7 +27,7 @@ export default function Header() {
       <div className="flex flex-col xl:flex-row h-screen ">
         <div className="h-screen xl:w-1/2  bg-yellow-500 lg:h-[110vh] 2xl:h-screen animate-left hover:bg-yellow-400 transition-all">
           <div className="w-full flex justify-center mt-5">
-            <h1 className=" text-2xl xl:text-4xl font-bold">
+            <h1 className=" text-lg sm:text-2xl xl:text-4xl font-bold">
               Full-Stack Senior{" "}
               <span className="xl:hidden text-red-600">
                 / Creador De Contenido
@@ -41,7 +41,7 @@ export default function Header() {
               alt="imagen ilustrativa de dotdager"
             />
             <img
-              className="w-[500px] h-[380px] 2xl:w-[700px] 2xl:h-[500px] object-cover mb-6 mt-12 xl:ml-32  xl:hidden"
+              className="sm:w-[500px] sm:h-[380px] 2xl:w-[700px] 2xl:h-[500px] object-cover mb-6 mt-12 xl:ml-32 ml-10 sm:ml-0  xl:hidden"
               src="/img/creadorDeContenido.png"
               alt="imagen ilustrativa de dotdager"
             />
@@ -88,53 +88,43 @@ export default function Header() {
                       />
                     </a>
                   </li>
-                  <div className="flex gap-4 xl:hidden">
-                    <a
-                      href="https://www.twitch.tv/dagerxiv"
-                      target="_blank"
-                      className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
-                    >
-                      <li className="w-[45px]">
+                  <div className="flex gap-4 xl:hidden ">
+                    <li className="w-[45px]">
+                      <a href="https://www.twitch.tv/dagerxiv" target="_blank">
                         <img
                           src="/img/twichIcon.png"
                           alt="imagen icon redSocial"
-                          className="w-[45px]"
+                          className="w-[45px] transform hover:scale-105 hover:-translate-y-1 transition-transform "
                         />
-                      </li>
-                    </a>
-                    <a
-                      href="https://www.youtube.com/@DotDager"
-                      target="_blank"
-                      className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
-                    >
+                      </a>
+                    </li>
+                    <a href="https://www.youtube.com/@DotDager" target="_blank">
                       <li className="w-[45px]">
                         <img
                           src="/img/youtubeIcon.png"
                           alt="imagen icon redSocial"
+                          className=" w-[45px] transform hover:scale-105 hover:-translate-y-1 transition-transform"
                         />
                       </li>
                     </a>
                     <a
                       href="https://www.instagram.com/dager.32/"
                       target="_blank"
-                      className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
                     >
                       <li className="w-[45px]">
                         <img
                           src="/img/instagramIcon.png"
                           alt="imagen icon redSocial"
+                          className=" w-[45px] transform hover:scale-105 hover:-translate-y-1 transition-transform"
                         />
                       </li>
                     </a>
-                    <a
-                      href="https://x.com/Dager_32"
-                      target="_blank"
-                      className="transform hover:scale-105 hover:-translate-y-1 transition-transform"
-                    >
+                    <a href="https://x.com/Dager_32" target="_blank">
                       <li className="w-[45px]">
                         <img
                           src="/img/twitterIcon.png"
                           alt="imagen icon redSocial"
+                          className=" w-[45px] transform hover:scale-105 hover:-translate-y-1 transition-transform"
                         />
                       </li>
                     </a>
@@ -219,7 +209,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className=" absolute left-[50%] transform translate-x-[-50%] bottom-10 xl:bottom-2 2xl:bottom-10 z-10">
+        <div className="hidden sm:block absolute left-[50%] transform translate-x-[-50%] bottom-10 xl:bottom-2 2xl:bottom-10 z-10">
           <p className="text-xl text-[#1b1b1b]">
             Usa click para soltar el pepinillo
           </p>

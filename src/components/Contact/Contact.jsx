@@ -11,15 +11,15 @@ export default function Contact() {
 
   return (
     <section
-      className="min-w-screen min-h-screen bg-slate-900 flex relative"
+      className="min-w-screen min-h-screen bg-slate-900 flex flex-col sm:flex-row relative"
       id="contact"
     >
       <h2 className="text-slate-100 text-2xl xt-center font-bold absolute top-10 left-1/2 transform translate-x-[-50%]">
         Contacto
       </h2>
-      <div className="w-1/2 h-screen  flex flex-col items-center justify-center relative">
+      <div className="w-full sm:w-1/2 h-screen  flex flex-col items-center justify-center relative">
         <p
-          className={` absolute -right-10 xl:right-20 top-10 text-2xl font-bold text-red-500 cursor-pointer z-50 animate-fade ${
+          className={` absolute top-5 right-10 sm:-right-10 xl:right-20  text-2xl font-bold text-red-500 cursor-pointer z-50 animate-fade ${
             showGame ? "block " : "hidden"
           }`}
           onClick={() => setShowGame(false)}
@@ -27,7 +27,7 @@ export default function Contact() {
           X
         </p>
         <div
-          className={` flex-col items-center animate-fade-right ml-10 h-screen ${
+          className={`w-full flex-col items-center animate-fade-right sm:ml-10 h-screen  ${
             showGame ? "flex" : "hidden"
           }`}
         >
@@ -43,7 +43,11 @@ export default function Contact() {
             }}
           ></iframe>
         </div>
-        <div className={` flex flex-col ${showGame ? "hidden" : "flex"}`}>
+        <div
+          className={` flex flex-col -mt-48 sm:mt-0 ${
+            showGame ? "hidden" : "flex"
+          }`}
+        >
           <img
             src="/img/gameIcon.png"
             alt="game imagen"
@@ -57,7 +61,7 @@ export default function Contact() {
           </button>
         </div>
       </div>
-      <div className="w-1/2 text-white flex flex-col justify-center items-center">
+      <div className="w-full sm:w-1/2 text-white flex flex-col justify-center items-center -mt-52 mb-28 sm:mt-0 sm:mb-0">
         <h2 className="text-xl md:text-2xl xl:text-4xl">
           Che contactame por donde queras
         </h2>

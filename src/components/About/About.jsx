@@ -6,32 +6,32 @@ export default function About() {
       className="min-h-screen min-w-screen bg-slate-800 flex flex-row relative"
       id="about"
     >
-      <h2 className="absolute left-1/2 transform translate-x-[-50%] top-16 text-3xl font-bold text-white">
+      <h2 className="absolute left-1/2 transform translate-x-[-50%] top-16 text-xl sm:text-3xl font-bold text-white">
         MIS PASIONES
       </h2>
-      <div className="w-full xl:w-[70%] p-20">
-        <div className="flex  xl:w-full 2xl:w-[80%] h-[650px] bg-slate-700 mt-32 p-3 rounded-md shadow-[-27px_62px_13px_0px_#00000024]">
-          <div className="w-[30%] h-fu rounded-md ">
+      <div className="w-full xl:w-[70%] sm:p-20">
+        <div className="flex flex-col  md:flex-row min-w-[350px] xl:w-full 2xl:w-[80%] md:h-[650px] bg-slate-700 mt-32 p-3 rounded-md shadow-[-27px_62px_13px_0px_#00000024]">
+          <div className="md:w-[30%] h-[40%] md:h-full rounded-md w-full ">
             <img
               src="/img/aboutme.jpeg"
               alt="imagen cat"
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="w-[70%] flex-col relative mt-20">
+          <div className="md:w-[70%] w-full flex-col relative md:mt-20">
             <div className="w-full  p-6 flex flex-col">
               <h2 className="text-3xl font-bold mb-4 text-slate-300">👀</h2>
-              <p className="text-xl text-slate-400 whitespace-pre-line">
+              <p className="text-lg md:text-xl text-slate-400 whitespace-pre-line">
                 Dicen que los gatos tienen nueve vidas. Yo, con mi guitarra, mi
                 amor por la filosofía y mi adicción a los pepinillos, creo que
                 tengo
               </p>
-              <p className="text-xl text-slate-400 whitespace-pre-line my-1">
+              <p className="text-lg md:text-xl text-slate-400 whitespace-pre-line my-1">
                 al menos nueve pasiones. Y todas ellas se unen en mi código,
                 creando aplicaciones que son tan únicas como yo
               </p>
 
-              <h2 className="text-2xl text-orange-400 mt-10">
+              <h2 className="md:text-2xl text-orange-400  mt-2 md:mt-10">
                 Algo se está cocinando... ¡No te lo pierdas
               </h2>
               <div className=" mt-6 ">
@@ -44,7 +44,7 @@ export default function About() {
                       <img
                         src="/img/spotifyIcon.png"
                         alt="icon Spotify"
-                        className="w-[50px]"
+                        className="w-[35px] lg:w-[45px] transform hover:scale-105 hover:-translate-y-1 transition-transform "
                       />
                     </i>
                   </a>
@@ -53,7 +53,7 @@ export default function About() {
                       <img
                         src="/img/tiktokIcon.png"
                         alt="icon Spotify"
-                        className="w-[50px]"
+                        className="w-[35px] lg:w-[45px] transform hover:scale-105 hover:-translate-y-1 transition-transform "
                       />
                     </i>
                   </a>
@@ -62,7 +62,7 @@ export default function About() {
                       <img
                         src="/img/discordIcon.png"
                         alt="icon Spotify"
-                        className="w-[50px]"
+                        className="w-[35px] lg:w-[45px] transform hover:scale-105 hover:-translate-y-1 transition-transform "
                       />
                     </i>
                   </a>
