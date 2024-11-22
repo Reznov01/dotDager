@@ -149,8 +149,8 @@ export default function Header() {
             <div className="flex flex-col  xl:mt-5 2xl:mt-24 animate-fade-left xl:animate-delay-[2000ms] lg:w-[95%] lg:mx-auto 2xl:w-full">
               <div className=" border-2  p-2 border-black rounded-md max-w-[800px] shadow-[31px_30px_20px_10px_#00000024]">
                 <p className="text-2xl ">
-                  Cuando no estoy programando, estoy pensando en el próximo
-                  chiste de mierda que contaré.
+                  Cuando no estoy programando, estoy pensando en lo próximo
+                  ¡Chiste de mierda que contaré!
                 </p>
               </div>
               <div className="mt-10 lg:ml-5 2xl:ml-0">
