@@ -16,7 +16,7 @@ export default function Header() {
     >
       {/* Capa interactiva del gato y el pepino */}
       <div
-        className={`absolute inset-0 z-20 ${
+        className={`absolute inset-0 z-20 hidden sm:block ${
           activeElement ? "pointer-events-auto" : "pointer-events-none"
         } `}
       >
